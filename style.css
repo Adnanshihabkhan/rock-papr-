@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    
+}
+.heading{
+    background-color: #222831;
+
+}
+.heading h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fac650;
+    font-size: 60px;
+    padding: 30px;
+    padding-left: 600px;
+}
+.choose{
+    font-size: 40px;
+    padding: 20px;
+    padding-left: 600px;
+}
+
+.bannerdiv{
+    display: flex;
+}
+.restart{
+    font-size: 40px;
+    color: #2564e1;
+    background-color: black;
+    border: 2px solid black;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+.banner{
+    font-size: 25px;
+    padding-left: 590px;
+    font-weight: 700;
+}
+.asnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.playerSign{
+    font-size: 100px;
+    margin-right: 100px;
+}
+.computerSign{
+    font-size: 100px;
+}
+
+.playerScore{
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.computerScore{
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.signs{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 90px 400px;
+    
+}
+.rockbtn{
+    background-color: #393e46;
+    width: 170px;
+    height: 170px;
+    font-size: 120px;
+    border-radius: 15px;
+    border: 2px solid #393e46;
+    cursor: pointer;
+}
+.paperbtn{
+    background-color: #393e46;
+    width: 170px;
+    height: 170px;
+    font-size: 120px;
+    border-radius: 15px;
+    border: 2px solid #393e46;
+    cursor: pointer;
+}
+.scissorbtn{
+    background-color: #393e46;
+    width: 170px;
+    height: 170px;
+    font-size: 120px;
+    border-radius: 15px;
+    border: 2px solid #393e46;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.12;
+    
+}
